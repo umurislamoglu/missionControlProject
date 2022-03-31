@@ -68,7 +68,7 @@ describe('Test POST /launch',()=>{
         .expect(400)
 
     expect(response.body).toStrictEqual({
-        error: 'Invalid launch date'
+        error: 'Invalid launch date'    
     })
     })
 })
